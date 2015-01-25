@@ -1,0 +1,61 @@
+{
+  "name": "fs_curl_mongo",
+  "version": "0.0.1",
+  "description": "this is a nodeJs version of fs_curl, the purpose of this application is to load freeswitch configuration,directory and dialplan form mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "grunt",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeflq/fs_curl_mongo"
+  },
+  "keywords": [
+    "freeswitch",
+    "fs_curl",
+    "mongodb",
+    "nodejs"
+  ],
+  "dependencies": {
+    "express": "~4.2.0",
+    "body-parser": "~1.2.0",
+    "cookie-parser": "~1.1.0",
+    "compression": "~1.0.1",
+    "method-override": "~1.0.0",
+    "morgan": "~1.1.0",
+    "connect-mongo": "~0.4.0",
+    "helmet": "~0.2.1",
+    "consolidate": "~0.10.0",
+    "swig": "~1.3.2",
+    "mongoose": "~3.8.8",
+    "lodash": "~2.4.1",
+    "forever": "~0.11.0",
+    "grunt-cli": "~0.1.13",
+    "glob": "~3.2.9",
+    "js2xmlparser": "~0.1.5",
+    "mongoose-relationship": "~0.0.6",
+    "mongoose-tree2": "~0.2.2"
+  },
+  "devDependencies": {
+    "grunt-env": "~0.4.1",
+    "should": "~4.1.0",
+    "grunt-node-inspector": "~0.1.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-csslint": "^0.2.0",
+    "grunt-ngmin": "0.0.3",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-nodemon": "~0.2.1",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-mocha-test": "~0.10.0",
+    "grunt-karma": "~0.8.2",
+    "load-grunt-tasks": "~0.4.0"
+  },
+  "author": "Mouhamed mine Nour",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/zeflq/fs_curl_mongo/issues"
+  }
+}
