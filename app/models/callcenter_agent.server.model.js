@@ -28,20 +28,20 @@ var CallcenterAgentSchema = new Schema({
 		type:String,
 		default:'Logged Out'
 	}, 
-	max_no_answer:{
+	'max-no-answer':{
 		type:Number
 	},	 
-	wrap_up_time:{
+	'wrap-up-time':{
 		type:Number,
 		default:0
 	},	 
-	reject_delay_time:{
+	'reject-delay-time':{
 		type:Number
 	},	 
-	busy_delay_time:{
+	'busy-delay-time':{
 		type:Number
 	},	 
-	no_answer_delay_time:{
+	'no-answer-delay-time':{
 		type:String
 	},
 	tiers:[
